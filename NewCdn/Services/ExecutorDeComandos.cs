@@ -13,7 +13,7 @@ namespace CandidateTesting.ElderLima.Services
         public static void ExecutarComando(string command)
         {
             if (command.Contains("convert"))
-            {
+            { 
                 var arraySplitEspaco = command.Split(" ");
                 var source = new Source();
                 source.BaixarConteudo(arraySplitEspaco[1]);
